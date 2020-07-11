@@ -1,6 +1,6 @@
 # Multi-Linear Regression Analysis using Machine_Learning:
 We want to analyse the given data on StartUps from different States of America using **Multi-Linear Regression Model**.
-Here, We are using following packages for dat- pre-processing and analysis:
+Here, We are using following packages for data pre-processing and analysis:
 1. **numpy**: helps us to work with array.
 2. **pandas**: helps us to import data available in different file format
 3. **matplotlib**: helps us to plot different graphs like (scatter-plot)
