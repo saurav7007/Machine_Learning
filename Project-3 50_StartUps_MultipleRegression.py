@@ -14,8 +14,9 @@ x[:, 3] = labelencoder.fit_transform(x[:, 3])
 #print(x)
 
 # Removing categorical column and replacing it with new columns:
-oneEncode = OneHotEncoder(categorical_features= [3])
+oneEncode = OneHotEncoder()
 x = oneEncode.fit_transform(x).toarray()
+print(x)
 
 # Removing 1st extra column: Changing n to (n-1)
 
